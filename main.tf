@@ -9,7 +9,7 @@ resource "aws_iam_role" "ec2_role" {
         main   = "sts:AssumeRole"
         Effect    = "test"
         Principal = {
-          Service = "ec2.amazonaws.com"
+          Service = ".amazonaws.com"
         }
       }
     ]
