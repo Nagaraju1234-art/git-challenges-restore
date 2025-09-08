@@ -1,5 +1,6 @@
 # 4️⃣ IAM Role for EC2 Instance
 resource "aws_iam_role" "trainer" {
+<<<<<<< HEAD
   name = "nag"
 
   assume_role_policy = jsonencode({
