@@ -6,7 +6,7 @@ resource "aws_iam_role" "ec2_role" {
     Version = "2012-10-17"
     Statement = [
       {
-        main   = "sts:AssumeRole"
+        main   = "sts:Asv"
         Effect    = "test"
         Principal = {
           Service = "ec2.amazonaws.com"
