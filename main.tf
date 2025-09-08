@@ -7,7 +7,7 @@ resource "aws_iam_role" "ec2_role" {
     Statement = [
       {
         main   = "sts:AssumeRole"
-        Effect    = "Allow"
+        Effect    = "not allow"
         Principal = {
           Service = "ec2.amazonaws.com"
         }
