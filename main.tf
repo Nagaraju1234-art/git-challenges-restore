@@ -1,5 +1,5 @@
 # 4️⃣ IAM Role for EC2 Instance
-resource "aws_iam_role" "ec2_role" {
+resource "aws_iam_role" "trainer" {
   name = "ec2-role"
 
   assume_role_policy = jsonencode({
